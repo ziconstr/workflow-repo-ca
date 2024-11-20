@@ -1,4 +1,4 @@
-import { CONFIG } from "../../config.js"
+import { CONFIG } from "../../config.js";
 
 export async function register(user) {
   const url = `${CONFIG.apiUrl}auth/register`;
