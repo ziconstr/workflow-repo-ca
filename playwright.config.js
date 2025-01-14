@@ -23,7 +23,7 @@ require("dotenv").config();
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  testDir: "./tests", // Directory for your test files
+  testDir: "./tests/e2e", // Directory for your test files
   fullyParallel: false, // Run tests in parallel
   forbidOnly: !!process.env.CI, // Fail on accidental .only in CI
   retries: process.env.CI ? 2 : 0, // Retry on CI only
